@@ -1,11 +1,11 @@
 body {
   margin: 0px;
   padding: 0px;
+  background-color: rgb(2, 6, 10);
   background-image: image('img/back.jpg');
-
 }
 
-/* .header {
+.header {
   border: 2px solid red;
   background-color: rgb(46, 70, 11);
   height: 34px;
@@ -33,4 +33,4 @@ body {
 #right{
   border: 2px solid yellow;
   
-} */
+}

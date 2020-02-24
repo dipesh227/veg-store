@@ -12,15 +12,15 @@
 <body>
     <header class="header">
         <div id="left" class="head">
-ifk
+            ifk
         </div>
 
         <div id="center" class="head">
-kjj
+            kjj
         </div>
 
         <div id="right" class="head">
-joojs
+            joojs
         </div>
     </header>
 </body>

@@ -1,69 +1,96 @@
 body {
-  margin: 0px;
+  font-family: "Baloo Bhai";
+  margin: 10px;
   padding: 0px;
-  /* background-color: rgb(2, 6, 10); */
-  background-image: url('img/back.jpg');
+  background-image: url("img/back.jpg");
   color: white;
-  height: 111111px;
+  border: 2px solid #f5f5dc;
+  border-radius: 20px;
+  height: 88888px;
 }
 
 .header {
-  border: 2px solid red;
-  padding: 5px;
-  margin: 20px 3px;
-  background-color: rgba(46, 70, 11, 0.28);
-  height: 50px;
-  border-radius: 10px;
+  /* border: 2px solid red; */
+  padding: 15px;
+  background-color: rgba(42, 148, 139, 0.404);
+  height: 59px;
+  border-radius: 20px;
   position: sticky;
   top: 0px;
-
 }
 
-.head{
+.head {
   display: inline-block;
   position: sticky;
-  top: 15px;
+  top: auto;
 }
 
-#left{
+#left {
   position: absolute;
-  left:20px;
-  border: 2px solid black;
+  top: auto;
+  left: 150px;
+  /* border: 2px solid black; */
 }
 
-#center{
-  display:block;
-  width: 50%;
+#left img {
+  width: 30px;
+  /* filter: invert(100%); */
+  padding: 0px 15px;
+}
+#left .logo {
+  text-align: center;
+  font-size: smaller;
+}
+#left:hover {
+  color: bisque;
+}
+
+#center {
+  display: block;
+  width: 600px;
   height: auto;
-  margin: auto;
-  border: 2px solid blue;
-  
+  margin: 15px auto;
+  font-size: larger;
+  /* border: 2px solid blue;   */
 }
 
-#right{
-  position: absolute;
-  right: 20px;
-  border: 2px solid yellow;
-  
-}
-.navbar{
+.navbar {
   display: inline-block;
   padding: 0px;
   margin: 0px;
 }
-.navbar li{
+.navbar li {
   display: inline-block;
   margin: 0px;
   padding: 0px;
-  
 }
-.navbar li a{
+.navbar li a {
   display: inline-block;
-  margin: 0px 13px;
+  margin: 0px 20px;
   text-decoration: none;
   color: white;
 }
-.navbar li a:hover{
- color: aqua;
- text-decoration: underline;
+.navbar li a:hover {
+  color: bisque;
+  text-decoration: underline;
+}
+
+#right {
+  position: absolute;
+  top: 27px;
+  right: 20px;
+  border: 2px solid yellow;
+}
+.btn {
+  font-family: "Baloo Bhai";
+  margin: 0px 9px;
+  color: white;
+  background-color: rgba(42, 148, 139, 0.183);
+  border: none;
+  padding: 4px 14px;
+  font-size: large;
+  cursor: pointer;
+}
+.btn:hover {
+  color: bisque;
 }

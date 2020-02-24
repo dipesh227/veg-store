@@ -6,6 +6,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Vag Store</title>
+    <link href="https://fonts.googleapis.com/css?family=Baloo+Bhai&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
 </head>
 
@@ -13,6 +14,9 @@
     <header class="header">
         <div id="left" class="head">
             <img src="img/logo" alt="" class="">
+            <div class="logo">
+                Vag Store
+            </div>
         </div>
 
         <div id="center" class="head">
@@ -26,7 +30,8 @@
         </div>
 
         <div id="right" class="head">
-            joojs
+            <button class="btn">Call Us</button>
+            <button class="btn">Email Us</button>
         </div>
     </header>
 </body>

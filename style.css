@@ -13,7 +13,7 @@ body {
   /* border: 2px solid red; */
   padding: 15px;
   background-color: rgba(42, 148, 139, 0.404);
-  height: 59px;
+  height: 50px;
   border-radius: 20px;
   position: sticky;
   top: 0px;
@@ -43,6 +43,8 @@ body {
 }
 #left:hover {
   color: bisque;
+  /* background-color: rgba(59, 124, 134, 0.299); */
+  cursor: pointer;
 }
 
 #center {
@@ -79,7 +81,7 @@ body {
   position: absolute;
   top: 27px;
   right: 20px;
-  border: 2px solid yellow;
+  /* border: 2px solid yellow; */
 }
 .btn {
   font-family: "Baloo Bhai";
@@ -93,4 +95,5 @@ body {
 }
 .btn:hover {
   color: bisque;
+  background-color: rgb(59, 124, 134);
 }

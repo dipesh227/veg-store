@@ -6,7 +6,7 @@ body {
   color: white;
   border: 2px solid #f5f5dc;
   border-radius: 20px;
-  height: 88888px;
+  height: 970px;
 }
 
 .header {
@@ -87,13 +87,46 @@ body {
   font-family: "Baloo Bhai";
   margin: 0px 9px;
   color: white;
-  background-color: rgba(42, 148, 139, 0.183);
-  border: none;
-  padding: 4px 14px;
+  background-color: rgba(27, 190, 177, 0.407);
+  border-radius: 20px;
+  padding: 4px 17px;
   font-size: large;
   cursor: pointer;
 }
 .btn:hover {
   color: bisque;
-  background-color: rgb(59, 124, 134);
+  background-color: rgb(170, 185, 187);
+}
+
+.container{
+  border: 2px solid rgb(230, 199, 199);
+  position: absolute;
+  right:80px ;
+  top: 40%;
+  padding: 10px 40px;
+  width: 35%;
+  border-radius: 10px;
+  text-align: center;
+}
+.form input{
+  font-family: "Baloo Bhai";
+  text-align: center;
+  display: block;
+  width: 300px;
+  border: 2px solid black;
+  margin: 5px auto;
+  font-size: 20px;
+  border-radius: 14px;
+}
+
+.form button{
+  margin: 0px 250px;
+}
+.btn1{
+  margin: 0px 35px;
+}
+.btn2{
+  margin-top: 30px;
+  margin-bottom: 5px;
+
 }

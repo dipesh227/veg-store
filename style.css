@@ -98,17 +98,17 @@ body {
   background-color: rgb(170, 185, 187);
 }
 
-.container{
+.container {
   border: 2px solid rgb(230, 199, 199);
   position: absolute;
-  right:80px ;
+  right: 80px;
   top: 40%;
   padding: 10px 40px;
   width: 35%;
   border-radius: 10px;
   text-align: center;
 }
-.form input{
+.form input {
   font-family: "Baloo Bhai";
   text-align: center;
   display: block;
@@ -119,14 +119,13 @@ body {
   border-radius: 14px;
 }
 
-.form button{
+.form button {
   margin: 0px 250px;
 }
-.btn1{
+.btn1 {
   margin: 0px 35px;
 }
-.btn2{
+.btn2 {
   margin-top: 30px;
   margin-bottom: 5px;
-
 }
